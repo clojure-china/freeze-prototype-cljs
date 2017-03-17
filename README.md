@@ -22,3 +22,5 @@ TypeError: Cannot assign to read only property 'toString' of object '#<Ca>'
 ```
 
 In Weex, they use `Object.freeze`. In ClojureScript we use Closure Library. And BOOM! https://youtu.be/I69pGyHbfgI
+
+Would be fixed with `Object.seal` https://github.com/apache/incubator-weex/pull/109
